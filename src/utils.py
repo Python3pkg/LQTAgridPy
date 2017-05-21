@@ -2,7 +2,7 @@
 # coding: utf-8
 
 try:
-    from itertools import izip
+    
 except ImportError:
     izip = zip
 
@@ -17,9 +17,9 @@ def Distance(r1, r2):
 
 def pairwise(iterable):
     a = iter(iterable)
-    return izip(a, a)
+    return zip(a, a)
 
 
 def triplewise(iterable):
     a = iter(iterable)
-    return izip(a, a, a)
+    return zip(a, a, a)

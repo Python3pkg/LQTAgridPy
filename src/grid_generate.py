@@ -1,9 +1,9 @@
 #!/usr/bin/env
 # coding: utf-8
 
-import matrix_generate
+from . import matrix_generate
 #from . import matrix_generate, utils
-import utils
+from . import utils
 from numpy import arange
 import os
 from pandas import DataFrame
